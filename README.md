@@ -25,3 +25,13 @@ https://github.com/Euronymou5/DTLB/archive/refs/heads/main.zip
 ```
 python -m pip install -r requirements.txt
 ```
+
+**Start:**
+
+*Double click on the file: main.py*
+
+**Or**
+
+```
+python main.py
+```
