@@ -35,3 +35,7 @@ python -m pip install -r requirements.txt
 ```
 python main.py
 ```
+
+# Images
+
+<img src="https://media.discordapp.net/attachments/1048496338301616138/1086107452803657728/5f455940-977b-4441-8589-805a796b1b67.png?width=374&height=402">
