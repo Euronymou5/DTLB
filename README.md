@@ -1,4 +1,6 @@
 # Discord-Token-Logger-Builder (DTLB)
+
+*DTLB (Discord Token Logger Builder) A program made to log the discord login token.*
  
 ## DISCLAIMER! 
 
